@@ -6,12 +6,12 @@ import { Badge } from "@/components/ui/badge";
 import { useInView } from "../hooks/use-in-view";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-import aiImage1 from "@assets/stock_images/artificial_intellige_7ad3542f.jpg";
-import aiImage2 from "@assets/stock_images/artificial_intellige_36b24c85.jpg";
-import mlImage1 from "@assets/stock_images/machine_learning_dat_c21b6cf8.jpg";
-import mlImage2 from "@assets/stock_images/machine_learning_dat_d8d4b46e.jpg";
-import robotImage1 from "@assets/stock_images/ai_robot_brain_techn_e4ba2dca.jpg";
-import robotImage2 from "@assets/stock_images/ai_robot_brain_techn_84e6c38c.jpg";
+import aiImage1 from "../assets/stock_images/artificial_intellige_7ad3542f.jpg";
+import aiImage2 from "../assets/stock_images/artificial_intellige_36b24c85.jpg";
+import mlImage1 from "../assets/stock_images/machine_learning_dat_c21b6cf8.jpg";
+import mlImage2 from "../assets/stock_images/machine_learning_dat_d8d4b46e.jpg";
+import robotImage1 from "../assets/stock_images/ai_robot_brain_techn_e4ba2dca.jpg";
+import robotImage2 from "../assets/stock_images/ai_robot_brain_techn_84e6c38c.jpg";
 
 export default function Projects() {
   const { ref, inView } = useInView({ threshold: 0.2 });
