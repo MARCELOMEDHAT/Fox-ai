@@ -3,7 +3,7 @@ import { ChevronDown, Github, Linkedin, Mail, Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import { useLanguage } from "@/contexts/LanguageContext";
-import profileImage from "@attached_assets/retouch_2025092302045989_1759805520508.jpg";
+import profileImage from "../assets/retouch_2025092302045989_1759805520508.jpg";
 
 export default function Hero() {
   const [displayedText, setDisplayedText] = useState("");
